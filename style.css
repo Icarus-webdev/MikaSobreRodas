@@ -1,0 +1,93 @@
+header{
+    padding-top: 1.7rem 3%;
+    padding-right: 3%;
+    padding-bottom: 1.7rem;
+    padding-left: 3%;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    left: 70px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 3px;
+    z-index: 1000;
+
+}
+
+#menu-icon{
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+article{
+    margin-top: 220px;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url(Imagens/Rodas.png);
+    background-size: cover;
+    color: black;
+    text-align: right;
+    margin: 50px 110px 0px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 300px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+span{
+    color: #189a46;
+}
+
+ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+
+li{
+    display: inline;    
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+
+ul li a:hover{
+    opacity: 0.7;
+}
+
+.segundo-paragrafo{
+    margin: 20px;
+}
+
+.botao{
+    text-decoration: none;
+    background-color:#189a46;
+    padding: 10px 15px 10px 15px;
+    color: black;
+}
+
+.botao:hover{
+    opacity: 0.7;
+}
+
